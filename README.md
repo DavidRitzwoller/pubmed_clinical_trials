@@ -11,11 +11,11 @@ This file has five fields:
 - `prob`: The predicted probability output by our ensemble, fine-tuned, language model. Large numbers indicate that the publication is more likely report the results of a clinical trial.
 - `liberal, moderate, conservative`: Binary variables indicating whether each publication is an element of the associated sample. We construct three samples by restricting attention to publications whose `prob` is above three thresholds. We refer to these samples as the `liberal` sample, the `moderate` sample, and the `conservative` sample. The thresholds associated with these samples are 0.0124, 0.221, and 0.494, respectively.
 
-The file has 1,810,510 entries. The entries correspond to the set of publications indexed by PubMed/MEDLINE that were published between 2010 and 2022 and who satisfy a set of sample restrictions enumerated in Appendix A.2 of Durvasula, Eyuboglu, and Ritzwoller (2024).
+The file has 1,810,510 entries. The entries correspond to the set of publications indexed by PubMed/MEDLINE that were published between 2010 and 2022, which satisfy a set of sample restrictions enumerated in Appendix A.2 of Durvasula, Eyuboglu, and Ritzwoller (2024).
 
 ## Usage
 The `conservative` sample has the lowest false positive rate, and will include the smallest number of publications that are not reporting the results of a clinical trial. The `liberal` sample has the largest true positive rate, and so will omit the smallest number of publications that are not reporting the results of a clinical trial.
 
 ## Acknowledgements
-We gratefully acknowledge support from the National Science Foundation, the Knight Hennessy Scholars Program, the Stanford Law School John M. Olin Program in Law and Economics, the National Bureau of Economic Research Innovation Information Initiative Summer Fellows Program, and the OpenAI Researcher Access Program. 
+We gratefully acknowledge financial support from the National Science Foundation, the Knight Hennessy Scholars Program, the Stanford Law School John M. Olin Program in Law and Economics, the National Bureau of Economic Research Innovation Information Initiative Summer Fellows Program, and the OpenAI Researcher Access Program. 
 
