@@ -1,7 +1,7 @@
 # Census of PubMed/MEDLINE Clinical Trial Publications
 
 ## Overview
-This repository contains the data produced by [Durvasula, Eyuboglu, and Ritzwoller (2024)](arxiv link). The data provide a census of publications indexed in PubMed/MEDLINE that report the results prospective, interventional clinical trials that evaluate the effects of investgational or approved drugs in a setting with exclusively human subjects.
+This repository contains the data produced by [Durvasula, Eyuboglu, and Ritzwoller (2024)](arxivlink). The data provide a census of publications indexed in PubMed/MEDLINE that report the results prospective, interventional clinical trials that evaluate the effects of investgational or approved drugs in a setting with exclusively human subjects.
 
 ## Data Description
 The repository includes a single file, sample.csv. 
